@@ -55,5 +55,7 @@ class DatabaseHelper {
         'update ${ConstantsDb.TABLE_LLIBRE} set ${ConstantsDb.FIELD_LLIBRES_TITOL} = ?, ${ConstantsDb.FIELD_LLIBRES_CONTENT} = ? where ${ConstantsDb.FIELD_LLIBRES_ID} = ?',
         [title, content, Id]);
   }
+
+
 }
 
